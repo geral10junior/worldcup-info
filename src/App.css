@@ -1,0 +1,29 @@
+body {
+  background: #1a2a1f;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+.gridStats {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(400px, 500px));
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.title {
+  text-align: center;
+  color: #fff;
+  margin-top: 8rem;
+}
+
+@media (max-width: 60rem) {
+  .title {
+    font-size: 1.5rem;
+    margin-top: 4rem;
+  }
+
+  .gridStats {
+    grid-template-columns: 400px;
+  }
+}

@@ -1,0 +1,32 @@
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+.namePlayer {
+  color: #155130;
+  font-size: 2rem;
+  font-weight: 400;
+}
+.assistsPlayer {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #fff;
+}
+.statsBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #47ae66;
+  padding: 1rem 2rem;
+  border-radius: 0.4rem;
+}
+.title {
+  color: #00461f;
+}
+@media (max-width: 60rem) {
+  .namePlayer {
+    font-size: 1.5rem;
+  }
+}

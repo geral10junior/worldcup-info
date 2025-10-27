@@ -1,9 +1,9 @@
 import "./App.css";
-import CountDown from "./components/CountDown";
-import Header from "./components/Header";
-import Assists from "./Components/Stats/Assists";
-import Goals from "./Components/Stats/Goals";
-import Titles from "./Components/Stats/Titles";
+import CountDown from "./Components/CountDown.jsx";
+import Header from "./Components/Header.jsx";
+import Assists from "./Components/Stats/Assists.jsx";
+import Goals from "./Components/Stats/Goals.jsx";
+import Titles from "./Components/Stats/Titles.jsx";
 
 function App() {
   const WORLD_CUP_START_DATE = new Date("2026-06-10T23:59:59-03:00").getTime();

@@ -11,8 +11,8 @@
 }
 .titlesTeam {
   font-size: 1.25rem;
-  color: #eee;
   font-weight: bold;
+  color: #fff;
 }
 .statsBox {
   display: flex;

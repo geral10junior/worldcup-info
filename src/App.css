@@ -4,10 +4,10 @@ body {
 }
 
 .gridStats {
-  margin-top: 2rem;
-  display: grid;
-  grid-template-columns: repeat(3, minmax(400px, 500px));
-  gap: 1.5rem;
+  margin: 2rem 0 6rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
   justify-content: center;
 }
 
@@ -21,9 +21,5 @@ body {
   .title {
     font-size: 1.5rem;
     margin-top: 4rem;
-  }
-
-  .gridStats {
-    grid-template-columns: 400px;
   }
 }

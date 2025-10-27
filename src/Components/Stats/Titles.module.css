@@ -2,11 +2,11 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 1.5rem;
+  gap: 2rem;
 }
 .nameTeam {
   color: #155130;
-  font-size: 2rem;
+  font-size: 1.75rem;
   font-weight: 400;
 }
 .titlesTeam {
@@ -21,6 +21,7 @@
   background: #47ae66;
   padding: 1rem 2rem;
   border-radius: 0.4rem;
+  width: 350px;
 }
 .title {
   font-size: 1.85rem;
